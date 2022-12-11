@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-const Contact = () => {
+const Contact = ({ contact }) => {
     const form = useRef();
 
     const handleSendMessage = (e) => {
@@ -16,14 +16,15 @@ const Contact = () => {
     }
 
     return (
-        <div>
-            <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content flex-col lg:flex-row jus">
+        <div className='bg-base-200 py-20' ref={contact} >
+            <h3 className='text-2xl sm:text-3xl lg:text-4xl font-bold'>Contact </h3>
+            <div className="hero min-h-screen">
+                <div className="hero-content flex-col lg:flex-row ">
 
 
-                    <div className="text-center lg:text-left">
-                        <h1 className="text-5xl text-center font-bold">Contact Me!</h1>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <div className="text-center lg:text-left lg:w-50">
+                        <h1 className="text-2xl sm:text-3xl lg:text-3xl text-center font-bold">Reach Me Out!</h1>
+                        <p className="py-6">Hi! How can I help you? If you want to contact me, please type your Name, Email and Message here. Ask me anything. I'll email you back then. Feel free to contact me! Thank You.</p>
                     </div>
 
 

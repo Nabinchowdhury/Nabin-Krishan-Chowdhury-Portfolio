@@ -7,7 +7,7 @@ const Banner = () => {
             <div className='my-10 '>
                 <h1 className='text-2xl sm:text-3xl lg:text-4xl font-bold py-5'>Nabin Krishan Chowdhury</h1>
                 <h3 className='text-xl sm:text-2xl lg:3xl font-bold'>MERN Stack Developer</h3>
-                <button className='btn btn-outline rounded-xl my-10'><a
+                <button className='btn btn-primary my-10'><a
                     href="https://drive.google.com/file/d/1LWbldKQuCa8WjIBuZmcx2qWUGWUassQT/view?usp=sharing" rel="noreferrer" target="_blank">Resume</a></button>
             </div>
 

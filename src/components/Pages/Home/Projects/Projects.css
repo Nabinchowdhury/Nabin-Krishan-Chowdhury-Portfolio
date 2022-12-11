@@ -1,0 +1,90 @@
+.swiper {
+    max-width: 100%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10%;
+
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    max-width: 50%;
+
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.swiper-pagination-bullet {
+    background-color: aliceblue;
+    margin-top: 46%;
+
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+
+    bottom: 1%
+}
+
+
+
+@media screen and (min-width:669px) and (max-width:992px) {
+    .swiper {
+        margin: 0 2%;
+    }
+
+    .swiper-slide {
+        width: 70%;
+
+
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+
+        bottom: 0%
+    }
+
+}
+
+
+@media screen and (max-width:668px) {
+    .swiper {
+        margin: 0 2%;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .swiper-slide {
+
+        width: 90%;
+        /* margin-right: 0 1%; */
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+
+        bottom: -2%;
+        padding: 5% 0;
+    }
+
+    .card-body {
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+}

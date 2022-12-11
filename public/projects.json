@@ -1,0 +1,103 @@
+[
+    {
+        "id": "1",
+        "title": "Dragon News Website",
+        "image": "https://i.ibb.co/Hx5nhtB/Dragon-news.png",
+        "details": "This is a news Website.It has Authentication system. You can browse hopmepage. But if you want to view full news you must login/sign up first. Your email id must be verified before login.",
+        "link": "https://i.ibb.co/Hx5nhtB/Dragon-news.png",
+        "client_repo": "https://github.com/Nabinchowdhury/dragon-news-client",
+        "technologies": [
+            "React",
+            "OAuth",
+            "ExpressJs",
+            "API",
+            "React-Bootstrap"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Ema-John Website",
+        "image": "https://i.ibb.co/80ms0Kn/Ema-john.png",
+        "details": "This is a shopping Website. You can't navigate through 'proceed shipping' while you are not signed in. Products added to cart will be stored in in Local storage. So, you can find them anytime while you vist this website in your cart if you had already added something.",
+        "link": "https://ema-john-3d02a.web.app/",
+        "client_repo": "https://github.com/Nabinchowdhury/Ema-John",
+        "technologies": [
+            "React",
+            "OAuth",
+            "JavaScript",
+            "CSS"
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Dynamic Quiz Contest",
+        "image": "https://i.ibb.co/FwqrVWR/quiz.png",
+        "details": "A Quiz contest website where you can choose different quiz contest and participate.Quiz marks will be shown in a modal.  Laptop, Tablet, Mobile Device responsive.",
+        "link": "https://incomparable-churros-46fa21.netlify.app/",
+        "client_repo": "https://github.com/Nabinchowdhury/Dynamic-Quiz-Contest",
+        "technologies": [
+            "ReactJs",
+            "JavaScript",
+            "Tailwind",
+            "daisyUI",
+            "REST API"
+        ]
+    },
+    {
+        "id": "4",
+        "title": "DistanceWind E-Learning",
+        "image": "https://i.ibb.co/bbPHvWy/distance-wind.png",
+        "details": "An E-learning Website where you can get different technical courses. You must log in to get courses. In the Premium-Checkout route a Coupon card is added. you can scratch and win coins. And Who Knows!! You may get a course free. Laptop, Tablet, Mobile Device responsive.",
+        "link": "https://distancewind-e-learning.web.app",
+        "client_repo": "https://github.com/Nabinchowdhury/DistanceWind-E-Learning-Client-Side",
+        "server_repo": "https://github.com/Nabinchowdhury/DistanceWind-E-Learning-server",
+        "technologies": [
+            "ReactJs",
+            "JavaScript",
+            "Tailwind",
+            "daisyUI",
+            " Firebase",
+            "MongoDB",
+            "Express"
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Visum",
+        "image": "https://i.ibb.co/GPm0wRK/visum.png",
+        "details": "A photgrapher's services website. After a successful log in you can add review, update and delete review. You can also add services. Recently uploaded review/ service will get priority in shown list.  Laptop, Tablet, Mobile Device responsive.",
+        "link": "https://service-review-1c4f4.web.app/",
+        "client_repo": "https://github.com/Nabinchowdhury/Visum-Client-Side",
+        "server_repo": "https://github.com/Nabinchowdhury/Visum-Server-Side",
+        "technologies": [
+            "ReactJs",
+            "JavaScript",
+            "Tailwind",
+            "daisyUI",
+            " Firebase",
+            "MongoDB",
+            "Express",
+            "NodeJS"
+        ]
+    },
+    {
+        "id": "6",
+        "title": "The Artistic Resales",
+        "image": "https://i.ibb.co/5T8VZXP/artistic-resales.png",
+        "details": "A used music instrument reselling website. Different dashboard according to user (Admin/ Seller/Buyer). Only Sellers can add and manage their products. Buyers can buy. Only admin can mange users. Payment option is implemented",
+        "link": "https://the-artistic-resale.web.app/",
+        "client_repo": "https://github.com/Nabinchowdhury/The-Artistic-Resales-Client-Side",
+        "server_repo": "https://github.com/Nabinchowdhury/The-Artistic-Resales-Server",
+        "technologies": [
+            "ReactJs",
+            "JavaScript",
+            "Tailwind",
+            "daisyUI",
+            " Firebase",
+            "MongoDB",
+            "Express",
+            "NodeJS",
+            "Stripe"
+        ]
+    }
+]
