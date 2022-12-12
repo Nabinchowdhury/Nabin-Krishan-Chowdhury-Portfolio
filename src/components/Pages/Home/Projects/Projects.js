@@ -1,19 +1,26 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper";
 import "./Projects.css"
+import { FaBeer } from 'react-icons/fa';
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 
 
 
-const Projects = () => {
+
+const Projects = ({ projectUndertaken }) => {
     const [projects, setProjects] = useState([])
 
     useEffect(() => {
         fetch("projects.json")
-            .then(res => res.json())
+            .then(res => {
+                // console.log(res)
+                return res.json()
+            })
             .then(data => {
                 // console.log(data)
                 setProjects(data)
@@ -21,8 +28,8 @@ const Projects = () => {
             .catch(err => console.log(err))
     }, [])
     return (
-        <div className='bg-base-200 py-20'>
-            <h3 className='text-2xl sm:text-3xl lg:text-4xl font-bold'>PROJECTS </h3>
+        <div ref={projectUndertaken} className=' py-20'>
+            <h3 className='text-2xl sm:text-3xl lg:text-4xl font-bold flex items-center justify-center'>PROJECTS <AiOutlineFundProjectionScreen className=' ml-3'></AiOutlineFundProjectionScreen></h3>
 
 
             <Swiper
@@ -46,13 +53,13 @@ const Projects = () => {
                     projects.sort((a, b) => b.id - a.id).map(project => {
                         return <SwiperSlide key={project.id}>
                             <div className="card w-full bg-white shadow-xl">
-                                <figure className=''><img src={project.image} alt="projects" className='' /></figure>
+                                <figure className=''><img src={project.image[0]} alt="projects" className='' /></figure>
                                 <div className="card-body">
                                     <div>Technoogies</div>
                                     {/* <h2 className="card-title justify-center text-xl">{project.title}</h2> */}
                                     <p>{project.details.slice(0, 96) + " ..."}</p>
                                     <div className="card-actions justify-end mt-4">
-                                        <button className="btn btn-primary btn-sm">See Details</button>
+                                        <Link to={`/${project.id}`}> <button className="btn bg-slate-900 btn-sm" >See Details</button></Link>
                                     </div>
                                 </div>
                             </div>

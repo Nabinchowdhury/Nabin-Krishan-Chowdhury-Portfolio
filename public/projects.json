@@ -2,27 +2,35 @@
     {
         "id": "1",
         "title": "Dragon News Website",
-        "image": "https://i.ibb.co/Hx5nhtB/Dragon-news.png",
-        "details": "This is a news Website.It has Authentication system. You can browse hopmepage. But if you want to view full news you must login/sign up first. Your email id must be verified before login.",
-        "link": "https://i.ibb.co/Hx5nhtB/Dragon-news.png",
+        "image": [
+            "https://i.ibb.co/Hx5nhtB/Dragon-news.png",
+            "https://i.ibb.co/3crf6Yh/Screenshot-20221212-032211.png",
+            "https://i.ibb.co/Z6j5wBT/Screenshot-20221212-032330.png"
+        ],
+        "details": "This is a news Website.It has Authentication system. You can browse hopmepage. But if you want to view full news you must login/sign up first. Your email id must be verified before login",
+        "link": "https://dragon-news-nkc.netlify.app/",
         "client_repo": "https://github.com/Nabinchowdhury/dragon-news-client",
         "technologies": [
-            "React",
+            "ReactJs",
             "OAuth",
-            "ExpressJs",
+            "Express",
             "API",
-            "React-Bootstrap"
+            "Bootstrap"
         ]
     },
     {
         "id": "2",
         "title": "Ema-John Website",
-        "image": "https://i.ibb.co/80ms0Kn/Ema-john.png",
-        "details": "This is a shopping Website. You can't navigate through 'proceed shipping' while you are not signed in. Products added to cart will be stored in in Local storage. So, you can find them anytime while you vist this website in your cart if you had already added something.",
+        "image": [
+            "https://i.ibb.co/80ms0Kn/Ema-john.png",
+            "https://i.ibb.co/843GfXX/Screenshot-20221212-032512.png",
+            "https://i.ibb.co/K5795th/Screenshot-20221212-032556.png"
+        ],
+        "details": "This is a shopping Website. You can't navigate through 'proceed shipping' while you are not signed in. Products added to cart will be stored in in Local storage. So, you can find them anytime while you vist this website in your cart if you had already added something",
         "link": "https://ema-john-3d02a.web.app/",
         "client_repo": "https://github.com/Nabinchowdhury/Ema-John",
         "technologies": [
-            "React",
+            "ReactJs",
             "OAuth",
             "JavaScript",
             "CSS"
@@ -31,8 +39,12 @@
     {
         "id": "3",
         "title": "Dynamic Quiz Contest",
-        "image": "https://i.ibb.co/FwqrVWR/quiz.png",
-        "details": "A Quiz contest website where you can choose different quiz contest and participate.Quiz marks will be shown in a modal.  Laptop, Tablet, Mobile Device responsive.",
+        "image": [
+            "https://i.ibb.co/FwqrVWR/quiz.png",
+            "https://i.ibb.co/N6893df/Screenshot-20221212-031955.png",
+            "https://i.ibb.co/ZL5m9M8/Screenshot-20221212-031906.png"
+        ],
+        "details": "A Quiz contest website.This project sets theme with users theme preference.  You can choose different quiz contest and participate.Quiz marks will be shown in a modal.  Laptop, Tablet, Mobile Device responsive",
         "link": "https://incomparable-churros-46fa21.netlify.app/",
         "client_repo": "https://github.com/Nabinchowdhury/Dynamic-Quiz-Contest",
         "technologies": [
@@ -46,8 +58,12 @@
     {
         "id": "4",
         "title": "DistanceWind E-Learning",
-        "image": "https://i.ibb.co/bbPHvWy/distance-wind.png",
-        "details": "An E-learning Website where you can get different technical courses. You must log in to get courses. In the Premium-Checkout route a Coupon card is added. you can scratch and win coins. And Who Knows!! You may get a course free. Laptop, Tablet, Mobile Device responsive.",
+        "image": [
+            "https://i.ibb.co/bbPHvWy/distance-wind.png",
+            "https://i.ibb.co/H4cPSBL/Screenshot-20221212-032659.png",
+            "https://i.ibb.co/GnswsWx/Screenshot-20221212-032740.png"
+        ],
+        "details": "An E-learning Website where you can get different technical courses. You must log in to get courses.This project sets theme with users theme preference. And use can toggle themes. On courseDetails page there is a button where you ca download details of ypur selected course with on just a click. Firebase OAuth is integreted to sign/log in or out. without log in private routes wont be shown Environment variable is used for secure browsing. In the Premium-Checkout route a Coupon card is added. you can scratch and win coins. And Who Knows!! You may get a course free. Laptop, Tablet, Mobile Device responsive",
         "link": "https://distancewind-e-learning.web.app",
         "client_repo": "https://github.com/Nabinchowdhury/DistanceWind-E-Learning-Client-Side",
         "server_repo": "https://github.com/Nabinchowdhury/DistanceWind-E-Learning-server",
@@ -56,7 +72,7 @@
             "JavaScript",
             "Tailwind",
             "daisyUI",
-            " Firebase",
+            "Firebase",
             "MongoDB",
             "Express"
         ]
@@ -64,8 +80,12 @@
     {
         "id": "5",
         "title": "Visum",
-        "image": "https://i.ibb.co/GPm0wRK/visum.png",
-        "details": "A photgrapher's services website. After a successful log in you can add review, update and delete review. You can also add services. Recently uploaded review/ service will get priority in shown list.  Laptop, Tablet, Mobile Device responsive.",
+        "image": [
+            "https://i.ibb.co/GPm0wRK/visum.png",
+            "https://i.ibb.co/gvQggWx/Screenshot-20221212-033000.png",
+            "https://i.ibb.co/ggZ8Tyb/Screenshot-20221212-032930.png"
+        ],
+        "details": "A photgrapher's services website. Different components, route paths (static, dynamic) are made for handling the project clearly and to keep code clean. Context API is used to keep code clean and non-repeatative. Conditional rendering and condition css are also used. Firebase is used for authentication. while user is logged in, he/she will get a token (jwt). The token has validity of 1 day. if someone tries to get data without a valid token server wont give any data. you can add review, update and delete review. You can also add services. Recently uploaded review/ service will get priority in shown list.  This Project is Responsive with mobile, laptop devices. Laptop, Tablet, Mobile Device responsive",
         "link": "https://service-review-1c4f4.web.app/",
         "client_repo": "https://github.com/Nabinchowdhury/Visum-Client-Side",
         "server_repo": "https://github.com/Nabinchowdhury/Visum-Server-Side",
@@ -74,7 +94,7 @@
             "JavaScript",
             "Tailwind",
             "daisyUI",
-            " Firebase",
+            "Firebase",
             "MongoDB",
             "Express",
             "NodeJS"
@@ -83,8 +103,12 @@
     {
         "id": "6",
         "title": "The Artistic Resales",
-        "image": "https://i.ibb.co/5T8VZXP/artistic-resales.png",
-        "details": "A used music instrument reselling website. Different dashboard according to user (Admin/ Seller/Buyer). Only Sellers can add and manage their products. Buyers can buy. Only admin can mange users. Payment option is implemented",
+        "image": [
+            "https://i.ibb.co/5T8VZXP/artistic-resales.png",
+            "https://i.ibb.co/n6mc9fV/Screenshot-20221212-033224.png",
+            "https://i.ibb.co/KFGYjpd/Screenshot-20221212-033059.png"
+        ],
+        "details": "Different components, route paths (static, dynamic) are made for handling the project clearly and to keep code clean.Firebase is used for authentication.while user is logged in, he/she will get a token (jwt). The token has validity of 10 hours. if someone tries to get data without a valid token server wont give any data.Different AdminRoute, SellerRoute, PrivateRoute is createdwhile fetching data admin/ seller will be verified in beckendA seller can add products.Only Admin  can Manage users.Buyers can only buy.payment option is implemented user can book productsmongodb is used. data will be stored",
         "link": "https://the-artistic-resale.web.app/",
         "client_repo": "https://github.com/Nabinchowdhury/The-Artistic-Resales-Client-Side",
         "server_repo": "https://github.com/Nabinchowdhury/The-Artistic-Resales-Server",
@@ -93,7 +117,7 @@
             "JavaScript",
             "Tailwind",
             "daisyUI",
-            " Firebase",
+            "Firebase",
             "MongoDB",
             "Express",
             "NodeJS",

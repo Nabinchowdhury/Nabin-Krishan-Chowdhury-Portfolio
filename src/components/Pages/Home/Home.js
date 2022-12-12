@@ -1,5 +1,7 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import ScrollToTop from '../../Utilities/ScrollToTop';
+import Spinner from '../../Utilities/Spinner';
+import About from '../About/About';
 import Banner from './Banner/Banner';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
@@ -8,21 +10,33 @@ import Projects from './Projects/Projects';
 import Skills from './Skills/Skills';
 
 const Home = () => {
-    const contact = useRef(null)
+    // const spinnerAuth=use
 
-    const scrollToContact = () => {
-        contact.current?.scrollIntoView({ behavior: 'smooth' });
+    const contact = useRef(null)
+    const about = useRef(null)
+    const projectUndertaken = useRef(null)
+
+    const [spinner, setSpinner] = useState(false)
+
+    const scrollToComponent = (component) => {
+        component.current?.scrollIntoView({ behavior: 'smooth' });
     }
     return (
-        <>
+        <div className='bg-black'>
             <ScrollToTop />
-            <Navbar scrollToContact={scrollToContact}></Navbar>
-            <Banner></Banner>
-            <Projects ></Projects>
-            {/* <Skills></Skills> */}
-            <Contact contact={contact}></Contact>
-            <Footer></Footer>
-        </>
+            <Navbar scrollToComponent={scrollToComponent}
+                contact={contact} about={about} projectUndertaken={projectUndertaken}></Navbar>
+
+            <Banner setSpinner={setSpinner}></Banner>
+            {spinner && <Spinner></Spinner>}
+
+            <Projects projectUndertaken={projectUndertaken}></Projects>
+            <Skills></Skills>
+            <About about={about}></About>
+            <Contact contact={contact} setSpinner={setSpinner}></Contact>
+            <Footer ></Footer>
+            {/* {setSpinner(false)} */}
+        </div>
     );
 };
 

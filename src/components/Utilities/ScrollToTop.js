@@ -15,17 +15,19 @@ const ScrollToTop = () => {
     }, []);
 
     const scrollTop = () => {
+
         window.scrollTo({
             top: 0,
             behavior: "smooth",
         });
+
     };
     return (
         <div>
             {showScrollTopButton && (
 
                 <FaAngleDoubleUp
-                    className="top-btn-position top-btn-style"
+                    className="top-btn-position top-btn-style z-20"
                     onClick={scrollTop}
                 />
             )}

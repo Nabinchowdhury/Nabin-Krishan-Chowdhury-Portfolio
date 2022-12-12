@@ -2,6 +2,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Home from './components/Pages/Home/Home';
+import ProjectDetails from './components/Pages/ProjectDetails/ProjectDetails';
 
 function App() {
 
@@ -12,7 +13,12 @@ function App() {
     },
     {
       path: "/home",
-      element: <h1>hi2222</h1>
+      element: <Home></Home>
+    },
+    {
+      path: "/:id",
+      element: <ProjectDetails></ProjectDetails>,
+      loader: ({ params }) => { return params.id }
     },
   ])
 
