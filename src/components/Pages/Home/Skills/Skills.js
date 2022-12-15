@@ -17,7 +17,7 @@ const Skills = () => {
         <div className='mx-5 lg:mx-20 flex flex-col items-center my-20'>
             <h3 className='text-2xl sm:text-3xl lg:text-4xl font-bold flex justify-center items-center mb-20'>Skills<GiSkills className='ml-3 text-white'></GiSkills></h3>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-auto '>
-                <div className='flex justify-center items-center sm:mx-10'>
+                <div className='flex justify-center items-center '>
                     <img src={ReactJs} alt="" />
                     <progress className="progress progress-info w-44 border mx-5" value="80" max="100"></progress>
                     <p className='font-bold text-white text-xl'>80%</p>

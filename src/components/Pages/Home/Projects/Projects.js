@@ -55,7 +55,7 @@ const Projects = ({ projectUndertaken }) => {
                             <div className="card w-full bg-white shadow-xl">
                                 <figure className=''><img src={project.image[0]} alt="projects" className='' /></figure>
                                 <div className="card-body">
-                                    <div>Technoogies</div>
+                                    <div>Technologies</div>
                                     {/* <h2 className="card-title justify-center text-xl">{project.title}</h2> */}
                                     <p>{project.details.slice(0, 96) + " ..."}</p>
                                     <div className="card-actions justify-end mt-4">
